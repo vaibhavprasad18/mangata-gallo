@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+}
+header img{
+    display: block;
+    width: 10%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    background-color: black;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+.menu a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+.promotion{
+    margin-top: 6%;
+    width: 350%;
+    height: 45vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(edgar-soto-gb0BZGae1Nk-unsplash.jpg);
+    background-size: cover;
+    background-position: 69%;
+    border-radius: 50px;
+    
+    margin-left: 25%;
+    margin-right: 4%;
+}
+.promotion-text{
+    padding-top: 150px;
+    margin-left: 30px;
+    color: white;
+    font-family: cursive;
+}
+.promotion-text h1{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+section{
+    display: flex;
+
+}
+
+article{
+    flex: 1 ;
+    justify-content: space-evenly;
+    margin: 0;
+}
+.ar1{
+    
+    margin-top: 30%;
+    
+}
+
+.ar1 img{
+    width: 250px;
+    height: 250px;
+}
+.ar2{
+    margin-top: 30%;
+}
+.ar3{
+    margin-top: 30%;
+}
+
